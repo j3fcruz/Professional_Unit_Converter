@@ -23,7 +23,7 @@ Professional-Unit-Converter/
 │
 ├─ ui/                               
 │   ├─ __init__.py
-│   └─ main_ui.py
+│   └─ main_window.py
 ├─ core/                               # Backend conversion logic
 │   ├─ __init__.py
 │   └─ unit_conversion.py                     # Conversion formulas and mappings
