@@ -16,14 +16,17 @@ Developed by **Marco Polo | PatronHub**
 ```
 Professional-Unit-Converter/
 │
-├─ Professional_Unit_Converter.py      # Main application entry point
+├─ main.py      # Main application entry point
 ├─ README.md                           # Project documentation
 ├─ LICENSE                             # MIT License file
 ├─ requirements.txt                    # Python dependencies
 │
+├─ ui/                               
+│   ├─ __init__.py
+│   └─ main_ui.py
 ├─ core/                               # Backend conversion logic
 │   ├─ __init__.py
-│   └─ unit_conversion.py              # Conversion formulas and mappings
+│   └─ unit_conversion.py                     # Conversion formulas and mappings
 │
 ├─ dialogs/                            # Modular PyQt5 dialogs
 │   ├─ __init__.py
